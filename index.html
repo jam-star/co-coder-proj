@@ -1,0 +1,47 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Text to Morse Converter </title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">		
+	</head>
+
+</head>
+<style>
+    body {background-color: pink;}
+</style>
+<body>
+    <div class="row">
+        <h1 class="col-8">Text to Morse Code Converter</h1>
+        <div class="col-4 d-flex justify-content-center align-items-center">
+            <button id="toggle" class="btn btn-outline-primary" onclick="toggle()">Reset</button>
+        </div>			
+    </div>		
+    
+    
+    
+    <div class="container d-flex justify-content-around align-items-center">
+    
+        <div>
+            <b>Input</b><br>
+            <textarea id="input" cols="50" rows="20" placeholder="Write your message"></textarea>
+        </div>
+        
+        <button id="convert" class="btn btn-md px-3 btn-outline-dark" onclick="text_to_morse()">Convert to Morse Code</button>
+  <div>
+  <input type="button" class="btn btn-md px-3 btn-outline-dark" value="Play" id="play" onclick="sound()">  
+    </div>
+        <div>
+            <b>Output</b><br>
+            <textarea id="output" cols="50" rows="20"></textarea>
+        </div>
+    
+    </div>
+    
+    <script src="main.js"></script>
+
+  
+</body>
+</html>
