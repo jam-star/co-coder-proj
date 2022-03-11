@@ -1,0 +1,28 @@
+# Project Name
+Text to Morse Code convertor
+
+## Team members
+1. Jamie Ann Jacob - https://github.com/jam-star
+2. Navami Ajay - https://github.com/Navami511
+
+## Team Id
+node js/109
+
+## Link to product walkthrough
+https://www.loom.com/share/8dcb25ed89c14564b6a1ff95163a0e26
+
+## How it Works ?
+1. Text is entered
+2. Each character is extracted and converted to its equivalent morse code
+3 Output is displayed
+4. if play button is pressed, a short beep is played for '.' and a long beep for '-'
+5. Reset button clears the windows
+
+## Libraries used
+We used AudioContext interface and createOscillator() function
+
+## How to configure
+we used codepen to host the code
+
+## How to Run
+input code in input window and press convert. Then press play to hear the audio. Press reset to clear windows.
